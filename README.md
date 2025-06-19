@@ -1,5 +1,34 @@
-Credit Card Fraud Detection Model in Python
+This project presents a Credit Card Fraud Detection model built in Python. The goal is to identify potentially fraudulent transactions using real-world data and machine learning techniques.
 
-In this project, we'll build a credit card fraud detection model using Python. The model is designed to identify potentially fraudulent transactions from a dataset. To follow along, you'll need to download the dataset from this Kaggle link (https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?resource=download).
+Overview
+The dataset used in this project contains credit card transactions made by European cardholders in September 2013. It includes both legitimate and fraudulent transactions, making it a great example for supervised anomaly detection.
 
-The dataset contains transactions made by European cardholders in September 2013, with a mix of fraudulent and legitimate transactions. We'll use various machine learning techniques to train the model and evaluate its performance. By the end of this project, you'll have a strong understanding of how to approach fraud detection using real-world data.
+We explore several machine learning algorithms to train, test, and evaluate the model’s performance, with a focus on metrics such as precision, recall, F1-score, and ROC AUC — crucial for imbalanced datasets like this one.
+
+📁 Dataset
+You can download the dataset from Kaggle:
+👉 Credit Card Fraud Detection Dataset
+
+Note: You'll need a Kaggle account to access the dataset.
+
+🛠️ Features
+Data preprocessing and scaling
+
+Handling class imbalance
+
+Model training (Logistic Regression, Random Forest, etc.)
+
+Evaluation using confusion matrix and ROC curves
+
+Visualization of results
+
+🧠 What You'll Learn
+By completing this project, you'll gain hands-on experience in:
+
+Working with real-world financial datasets
+
+Building and tuning ML models for fraud detection
+
+Evaluating performance on imbalanced datasets
+
+Applying Python libraries such as pandas, scikit-learn, matplotlib, and seaborn
